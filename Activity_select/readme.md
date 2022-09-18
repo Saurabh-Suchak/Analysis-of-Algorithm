@@ -2,8 +2,9 @@
 
 ### Background:
 Activity selection problem
-This project provides a solution for Activity Selection Problem using Greedy algorithmic approach. Greedy is a algorithmic approach which builds up solution piece by piece, these are chosen such that it is the most benificial approach, this provides a solution to optimization problems. In this aproach we make choice at every step that provides best solution at present and hence we get the optimal solution for complete problem.
-Activity selection problem is a approach wherein we select the activity from the set of given activities such that we maaximum number of activities should be completed/selected using the given solution
+Activity Selection Problem is based on Greedy approach. A greedy algorithm is a simple, intuitive algorithm that is used in optimization problems. The algorithm makes the optimal choice at each step as it attempts to find the overall optimal way to solve the entire problem.
+<br />
+In activity selection we try to use the same approach so that maximum activities can take place.
 
 
 ### Problem Statement:
