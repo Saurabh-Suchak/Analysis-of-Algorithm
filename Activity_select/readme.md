@@ -83,6 +83,13 @@ the following activites with start and end as given are selected -
 (1, 3), (3, 4), (4, 7), (8, 9), (9, 11), (11, 12), (12, 14),
 ```
 
+### Time and Space complexity :
+```
+TC- O(NlogN)         // sorting and single pass iteration
+SC- O(N)            // for vector
+```
+
+
 ### Explanation : 
 
 Step 01 : We iterate through the start and end array and store in vector the start and end time of an activity as a pair as {finsih,start}.<br />
