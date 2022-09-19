@@ -16,6 +16,8 @@ We make a little modification in binary search function such that even if we fin
 ### Code:
 
 ```cpp
+
+// Taking n as 10
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -89,23 +91,7 @@ else cout<<"Z";
 
 ```
 
-### Output1 using n=15 :
-```
-the array obtained is - 
-2 2 1 1 2 1 0 0 1 2 2 2 1 0 1
-the array after sorting is -
-0 0 0 1 1 1 1 1 1 2 2 2 2 2 2
-the index where 0 ends is 2
-the index where 1 ends is 8
-no of zeroes in array are 3
-no of ones in array are 6
-no of two in array are 6
-
-printing the output according to maximum freq element
-Z
-```
-
-### Output2 using n=10 :
+### Output 1 using n=10 :
 ```
 the array obtained is - 
 2 2 1 1 2 1 0 0 1 2
@@ -116,6 +102,22 @@ the index where 1 ends is 5
 no of zeroes in array are 2
 no of ones in array are 4
 no of two in array are 4
+
+printing the output according to maximum freq element
+Z
+```
+
+### Output 2 using n=15 :
+```
+the array obtained is - 
+2 2 1 1 2 1 0 0 1 2 2 2 1 0 1
+the array after sorting is -
+0 0 0 1 1 1 1 1 1 2 2 2 2 2 2
+the index where 0 ends is 2
+the index where 1 ends is 8
+no of zeroes in array are 3
+no of ones in array are 6
+no of two in array are 6
 
 printing the output according to maximum freq element
 Z
