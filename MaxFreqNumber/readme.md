@@ -1,12 +1,5 @@
 # Find Element with max freq 
 
-### Background:
-Activity selection problem
-Activity Selection Problem is based on Greedy approach. A greedy algorithm is a simple, intuitive algorithm that is used in optimization problems. The algorithm makes the optimal choice at each step as it attempts to find the overall optimal way to solve the entire problem.
-<br />
-In activity selection we try to use the same approach so that maximum activities can take place.
-
-
 ### Problem Statement:
 Accept a 1-D array using random number generator. The array may be be in the range of [0,1,2] [Only three numbers are permitted]
 Scan the array and print "X" if number "0" is more than number of "1" and "2".
@@ -136,8 +129,3 @@ SC- O(1)            // No auxiliary space used apart from variables.
 ```
 
 
-### Explanation : 
-
-Step 01 : We iterate through the start and end array and store in vector the start and end time of an activity as a pair as {finsih,start}.<br />
-Step 02 : This way of storing makes it easy to sort the activities accoriding to the finsih times, we just have to use the inbuilt sort now.<br />
-Step 03 : then we select the activities **greedily**, choosing the activities that finish early so that we can maximise available time for other activities.
