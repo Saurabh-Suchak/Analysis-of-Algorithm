@@ -70,9 +70,10 @@ int main(){
 
 ### Time and Space complexity :
 ```
-Time Complexity of Recursion - O(min(3^n1, 3^n2)) // O(min(3^(length string1), 3^(length string2))
+Time Complexity of Recursion - O(min(3^n1, 3^n2)) 
 Space Complexity - O(n)    // stack space for recursion
 
 Time Complexity in dynamic prog. -  O(n1 * n2)
 Space Complexity - O(n1 * n2)
+
 ```
