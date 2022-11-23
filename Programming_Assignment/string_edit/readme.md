@@ -60,12 +60,26 @@ int main(){
 
 ### Testcase 1 :
 ```
+word1= "doingthisdp"
+word2= "dwingthedp"
 
+Output - the minimum edits required are 3
 ```
 
 ### Testcase 2 :
 ```
+word1 = "food"
+word2 ="money"
 
+Output - the minimum edits required are 4
+```
+
+### Testcase 3 :
+```
+word1 = "chocolatey"
+word2 = "c"
+
+Output - the minimum edits required are 9
 ```
 
 ### Time and Space complexity :
