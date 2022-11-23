@@ -1,3 +1,5 @@
+// this code considers no. of elements in array as 15 while the code in readme has n=10
+
 #include <bits/stdc++.h>
 using namespace std;
 
