@@ -60,10 +60,18 @@ int main(){
 
 ### Testcase 1 :
 ```
+An application of string editing for spell correction:
+
+
 word1= "doingthisdp"
 word2= "dwingthedp"
 
 Output - the minimum edits required are 3
+
+Here 3 edits are required to make the spelling correct and match the two words
+- Edit 1 : replace 'w' with 'o' in the second string
+- Edit 2 : replace 'e' with 'i'
+- Edit 3 : insert 's' in the second string to match oth strings
 ```
 
 ### Testcase 2 :
