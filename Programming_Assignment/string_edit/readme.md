@@ -101,4 +101,6 @@ Space Complexity - O(n)    // stack space for recursion
 Time Complexity in dynamic prog. -  O(n1 * n2)
 Space Complexity - O(n1 * n2)
 
+n1,n2 represents the length of word1 and word2
+
 ```
