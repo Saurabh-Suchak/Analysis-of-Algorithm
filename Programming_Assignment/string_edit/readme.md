@@ -79,11 +79,13 @@ individual cost of operations (i.e insertion, deletion and updation/replace)
 
 ### Testcase 2 :
 ```
-word1 = "food"
-word2 ="money"
+word1 = "abcfg"
+word2 ="adceg"
 
-Output - the minimum edits required are 4
+Output - the minimum edits required are 2
 ```
+
+![WhatsApp Image 2022-12-20 at 6 18 03 PM](https://user-images.githubusercontent.com/91744743/208671162-c9ecf2d0-d4ab-4322-a8cd-960825e6e9eb.jpeg)
 
 ### Testcase 3 :
 ```
