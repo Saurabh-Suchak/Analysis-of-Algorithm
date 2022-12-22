@@ -110,7 +110,12 @@ An application of string editing for spell correction:
 word1= "doingthisdp"
 word2= "dwingthedp"
 
-Output - the minimum edits required are 3
+Output - 
+Change 'o' to 'w
+Change 'i' to 'e
+Delete 's
+
+minimum edits required are 3
 
 Here 3 edits are required to make the spelling correct and match the two words
 - Edit 1 : replace 'w' with 'o' in the second string
@@ -126,7 +131,10 @@ individual cost of operations (i.e insertion, deletion and updation/replace)
 word1 = "abcfg"
 word2 ="adceg"
 
-Output - the minimum edits required are 2
+Output - Change 'b' to 'd
+Change 'f' to 'e
+
+minimum edits required are 2
 ```
 
 ![WhatsApp Image 2022-12-20 at 6 18 03 PM](https://user-images.githubusercontent.com/91744743/208671162-c9ecf2d0-d4ab-4322-a8cd-960825e6e9eb.jpeg)
@@ -136,7 +144,8 @@ Output - the minimum edits required are 2
 word1 = "chocolatey"
 word2 = "c"
 
-Output - the minimum edits required are 9
+Output - Delete 'h', 'o', 'c', 'o', 'l', 'a', 't', 'e', 'y'
+minimum edits required are 9
 ```
 
 ### Time and Space complexity :
