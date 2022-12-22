@@ -117,14 +117,15 @@ Delete 's
 
 minimum edits required are 3
 
-Here 3 edits are required to make the spelling correct and match the two words
-- Edit 1 : replace 'w' with 'o' in the second string
-- Edit 2 : replace 'e' with 'i'
-- Edit 3 : insert 's' in the second string to match oth strings
 
 Therefore minimum 3 edits would be required to match both the words and the associated cost would be incurred, according to the 
 individual cost of operations (i.e insertion, deletion and updation/replace)
 ```
+
+![pastenow](https://user-images.githubusercontent.com/91744743/209128573-e2355c95-1b2e-4e1f-81ac-ef6d707b0c39.PNG)
+
+
+
 
 ### Testcase 2 :
 ```
