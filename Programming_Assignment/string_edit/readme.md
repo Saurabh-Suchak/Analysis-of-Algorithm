@@ -94,8 +94,8 @@ void steps(int i, int j) {
 
 int main() {
      steps(0,0);
-     cout<<endl<<"minimum edits required are "<<dp[0][0]<<endl;
-    //  cout<<endl<<"minimum edits required are "<<cnt<<endl;
+     
+     cout<<endl<<"minimum edits required are "<<cnt<<endl;
     
     
 }     
